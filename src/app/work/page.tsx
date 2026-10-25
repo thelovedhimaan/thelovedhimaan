@@ -12,7 +12,7 @@ const projects = [
     description: "A production-oriented anime discovery application combining a modern catalogue interface with a normalized aggregation API, resilient provider access, and an AWS-hosted container stack.",
     highlights: ["Live AniList GraphQL trending, search, and title-detail flows", "Django REST API with Redis caching and graceful provider fallbacks", "Dockerized Next.js, Django, pgvector/PostgreSQL, and Redis on AWS EC2"],
     tags: ["Next.js 16", "React 19", "TypeScript", "Python", "Django REST", "PostgreSQL", "pgvector", "Redis", "GraphQL", "Docker Compose", "AWS EC2", "CloudFormation", "Jenkins", "Kafka"],
-    live: "http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com", source: "https://github.com/thelovedhimaan/animae-search", accent: "lime",
+    live: "https://anime-index.65-0-27-27.sslip.io", source: "https://github.com/thelovedhimaan/animae-search", accent: "lime",
   },
   {
     number: "02", name: "Dynamic Chemicals", category: "Commerce and operations platform",
