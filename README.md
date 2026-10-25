@@ -60,7 +60,7 @@
       <h3>01 · <a href="https://github.com/thelovedhimaan/animae-search">Anime Index</a></h3>
       <p>An AWS-hosted anime discovery platform with live provider aggregation, normalized APIs, caching, container orchestration, and a production delivery path.</p>
       <p><code>Next.js 16</code> <code>React 19</code> <code>TypeScript</code> <code>Python</code> <code>Django REST</code> <code>PostgreSQL</code> <code>pgvector</code> <code>Redis</code> <code>AniList GraphQL</code> <code>Docker Compose</code> <code>AWS EC2</code> <code>CloudFormation</code> <code>Jenkins</code> <code>Kafka</code></p>
-      <p><a href="http://ec2-13-232-238-146.ap-south-1.compute.amazonaws.com"><img src="./assets/button-view-live.svg" alt="View Anime Index live" height="28"></a></p>
+      <p><a href="https://anime-index.65-0-27-27.sslip.io"><img src="./assets/button-view-live.svg" alt="View Anime Index live" height="28"></a></p>
     </td>
   </tr>
   <tr>
