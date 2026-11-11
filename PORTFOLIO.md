@@ -26,7 +26,7 @@ frontend systems, and high-performing engineering teams.
 The site presents engineering work through outcomes, architecture decisions,
 performance evidence, and practical delivery experience. Its Work page presents
 live full-stack products ordered by current architecture and operational
-complexity: Anime Index, Dynamic Chemicals, and Color Palette Studio.
+complexity: Career Compass, Anime Index, Dynamic Chemicals, and Color Palette Studio.
 
 ## Impact
 

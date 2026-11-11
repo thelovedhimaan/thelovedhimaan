@@ -8,21 +8,28 @@ export async function generateMetadata() {
 
 const projects = [
   {
-    number: "01", name: "Anime Index", category: "Distributed discovery platform",
+    number: "01", name: "Career Compass", category: "AI career intelligence workspace",
+    description: "A private career workspace that combines worldwide job discovery, profile-aware ranking, AI fit analysis, multi-resume tailoring, preparation planning, and application tracking.",
+    highlights: ["Worldwide aggregation across Arbeitnow, Remotive, Himalayas, and Jobicy", "Profile-aware matching with explainable scores, Gemini analysis, and skill-gap roadmaps", "Multiple resume uploads, PDF parsing, keyword tailoring, and a responsive application pipeline"],
+    tags: ["Next.js 16", "React 19", "TypeScript", "Gemini", "Multi-provider APIs", "PDF parsing", "Vitest", "Testing Library", "Vercel"],
+    live: "https://career-compass-phi-sage.vercel.app", source: "https://github.com/thelovedhimaan/career-compass", accent: "violet",
+  },
+  {
+    number: "02", name: "Anime Index", category: "Distributed discovery platform",
     description: "A production-oriented anime discovery application combining a modern catalogue interface with a normalized aggregation API, resilient provider access, and an AWS-hosted container stack.",
     highlights: ["Live AniList GraphQL trending, search, and title-detail flows", "Django REST API with Redis caching and graceful provider fallbacks", "Dockerized Next.js, Django, pgvector/PostgreSQL, and Redis on AWS EC2"],
     tags: ["Next.js 16", "React 19", "TypeScript", "Python", "Django REST", "PostgreSQL", "pgvector", "Redis", "GraphQL", "Docker Compose", "AWS EC2", "CloudFormation", "Jenkins", "Kafka"],
     live: "https://anime-index.65-0-27-27.sslip.io", source: "https://github.com/thelovedhimaan/animae-search", accent: "lime",
   },
   {
-    number: "02", name: "Dynamic Chemicals", category: "Commerce and operations platform",
+    number: "03", name: "Dynamic Chemicals", category: "Commerce and operations platform",
     description: "A production catalogue and order-management platform for personalized chemical products, covering discovery, multi-item requests, private tracking, pricing, notifications, and staff operations.",
     highlights: ["Multi-item ordering with customization and image previews", "Express API, Supabase persistence, and JWT-protected administration", "Meta WhatsApp, Resend email, and optional OpenAI support integrations"],
     tags: ["Next.js 16", "React 19", "TypeScript", "Node.js", "Express 5", "Supabase", "PostgreSQL", "JWT", "WhatsApp API", "Resend", "OpenAI Responses", "Vercel"],
     live: "https://dynamicchemicals.vercel.app", source: "https://github.com/thelovedhimaan/dynamic_chemicals", accent: "cyan",
   },
   {
-    number: "03", name: "Color Palette Studio", category: "Accessible design tooling",
+    number: "04", name: "Color Palette Studio", category: "Accessible design tooling",
     description: "A cloud-backed color-system workspace for creating private palettes, evaluating accessibility, saving checkpoints, sharing snapshots, and exporting production-ready tokens.",
     highlights: ["Google OAuth, Supabase Postgres, ownership policies, and read-only sharing", "WCAG contrast analysis, color-vision previews, and version history", "Vitest, Testing Library, axe-core, bundle budgets, and GitHub Actions"],
     tags: ["React 19", "TypeScript", "Vite 6", "Supabase Auth", "Google OAuth", "PostgreSQL RLS", "Vitest", "Testing Library", "axe-core", "WCAG", "GitHub Actions", "Vercel"],
